@@ -1,0 +1,174 @@
+:root {
+  --main-color: #fc0464;
+  --second-color: #fff;
+}
+
+
+/* ========== header start ========== */
+.header {
+  height: 100vh;
+}
+
+.header .header-text h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px #797979;
+}
+.header .header-text h1 span {
+  color: var(--main-color);
+}
+
+.header button {
+  padding: 8px 15px;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  background-color: var(--main-color);
+}
+
+.header button:hover {
+  background-color: var(--second-color);
+}
+
+.header button a {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.header button a:hover {
+  color: var(--main-color);
+}
+
+.header img {
+  width: 25%;
+}
+
+.header .img1 {
+  display: none;
+}
+/* ========== header end ========== */
+
+
+/* ========== about start ========== */
+.aboutus h2 {
+  color: var(--main-color);
+}
+
+.aboutus img {
+  display: none;
+}
+
+.aboutus p {
+  text-align: justify;
+}
+/* ========== about end ========== */
+
+
+/* ========== stories start ========== */
+.cerita h2, .cerita h5 {
+  color: var(--main-color);
+}
+
+.cerita .cerita-card {
+  padding: 20px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+}
+
+.cerita .cerita-card img {
+  width: 30%;
+}
+/* ========== stories end ========== */
+
+
+/* ===============================================================
+                              TABLET
+================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .aboutus {
+    margin-bottom: 70px;
+  }
+
+  .aboutus img {
+    display: block;
+    width: 15%;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .cerita-card {
+    margin-bottom: 30px;
+  }
+
+  .cerita-card img {
+    width: 50%;
+  }
+
+  .cerita .cerita-card div {
+    width: 100%;
+  }
+
+  .cerita-card h5 {
+    font-size: 25px;
+  }
+
+  .cerita .cerita-card audio {
+    width: 100%;
+  }
+}
+
+
+/* ===============================================================
+                            MOBILE
+================================================================== */
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .header {
+    text-align: center;
+  }
+  
+  .header .header-text h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px #797979;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .aboutus {
+    margin-bottom: 50px;
+  }
+
+  .aboutus img {
+    display: block;
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .cerita .cerita-card {
+    margin-bottom: 20px;
+  }
+
+  .cerita .cerita-card div {
+    width: 100%;
+  }
+
+  .cerita .cerita-card audio {
+    width: 100%;
+  }
+}
