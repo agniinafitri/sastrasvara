@@ -1,4 +1,4 @@
-import Logo from "/public/assets/images/logo_sastrasvara.png"
+import Logo from "/assets/images/logo_sastrasvara.png"
 
 const About = (id) => {
   return (
