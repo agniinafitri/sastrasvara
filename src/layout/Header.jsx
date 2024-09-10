@@ -1,4 +1,3 @@
-import Logo from "/assets/images/logo_sastrasvara.png";
 
 const Header = (href) => {
   return (
@@ -14,7 +13,7 @@ const Header = (href) => {
           <a href={`#${href}`}>Selengkapnya</a>
         </button>
       </div>
-      <img src={Logo} class="figure-img img-fluid rounded" alt="..." />
+      <img src="/assets/images/logo_sastrasvara.png" class="figure-img img-fluid rounded" alt="..." />
     </div>
   );
 };
