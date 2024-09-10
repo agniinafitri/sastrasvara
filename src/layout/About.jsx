@@ -1,10 +1,8 @@
-import Logo from "/assets/images/logo_sastrasvara.png"
-
 const About = (id) => {
   return (
     <div id={id} className="aboutus container mb-5">
       <h2 className="text-center mb-4">Tentang Kami</h2>
-      <img src={Logo} alt="Sastra Svara" />
+      <img src="/assets/images/logo_sastrasvara.png" alt="Sastra Svara" />
       <p>
         Sastra Svara adalah platform yang didedikasikan untuk pegiat bahasa dan
         sastra Indonesia agar semakin memudahkan menyimak pembelajaran yang
